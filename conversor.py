@@ -3,6 +3,10 @@
 if __name__ == "__main__":
     print("Conversor de unidades")
     print("a) m -> km")
+    print("b) m -> cm")
+    print("c) cm -> m")
+    print("d) m -> milhas")
+    print("e) milhas -> m")
     
     opcao = input("> ")
     if opcao == "a":
