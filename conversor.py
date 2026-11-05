@@ -26,9 +26,8 @@ if __name__ == "__main__":
         print(f"{m} m = {m/1609.34} milhas")
     
     elif opcao == "e":
-        m = float(input("m = "))
-        print(f"{m} milhas = {m*1609.34} m")
-    
+        milhas = float(input("milhas = "))
+        print(f"{milhas} milhas = {milhas*1609.34} m")    
 
     else:
         print("Opção inválida")
