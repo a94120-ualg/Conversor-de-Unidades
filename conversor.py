@@ -17,5 +17,14 @@ if __name__ == "__main__":
         cm = float(input("cm = "))
         print(f"{cm} cm = {cm/100} m")
 
+    elif opcao == "d":
+        m = float(input("m = "))
+        print(f"{m} m = {m/1609.34} milhas")
+    
+    elif opcao == "e":
+        m = float(input("m = "))
+        print(f"{m} milhas = {m*1609.34} m")
+    
+
     else:
         print("Opção inválida")
