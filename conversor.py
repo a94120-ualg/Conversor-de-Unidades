@@ -9,5 +9,13 @@ if __name__ == "__main__":
         m = float(input("m = "))
         print(f"{m} m = {m/1000} km")
 
+    elif opcao == "b":
+        m = float(input("m = "))
+        print(f"{m} m = {m*100} cm")
+    
+    elif opcao == "c":
+        cm = float(input("cm = "))
+        print(f"{cm} cm = {cm/100} m")
+
     else:
         print("Opção inválida")
